@@ -1,0 +1,135 @@
+body {
+    background: #86afba;
+  }
+  
+  .cal-container {
+    background-color: #3a4452; /*  /*#222; */
+    width: 300px;
+    height: 520px;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin-left: 600px;
+    margin-top: 100px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    display: center;
+  }
+  
+  .clock {
+    position: relative;
+    top: 15px;
+    height: 40px;
+    width: 255px;
+    padding: 3px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 4px;
+    /* left: 170px; */
+    background: rgb(132, 201, 224);
+    color: white;
+    font-weight: 3px;
+   
+   
+  }
+  .clock h3{
+      text-align: center;
+      align-items: center;
+      margin-top: 5px;
+      font-size: 30px;
+     
+      
+  }
+  
+  .display {
+    background-color: black;
+    height: 45px;
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    width: 265px;
+    border-radius: 5px;
+  }
+  
+  #screen {
+    position: relative;
+    height: 33px;
+    top: 2.5px;
+    width: 253px;
+   background: #fcfff4;
+    text-align: right;
+    font-size: 1.5em;
+    border-radius: 5px;
+  }
+  .keys {
+    position: relative;
+    top: 40px;
+  }
+  .btn {
+    color: black;
+    background-color: rgb(81, 165, 248);
+    cursor: pointer;
+    width: 40px;
+    margin: 2px 2px 2px 4px;
+    font-size: 0.9em;
+    text-align: center;
+    border: none;
+    border-top: 2px solid transparent;
+    padding: 3px;
+  }
+  .btn-sign {
+    background: #413c3c;
+    color: #ffffff;
+    border-radius: 12px;
+    border-top: 2px solid #413c3c;
+    border-bottom: 2px solid #000;
+  }
+  
+  .btn-sign:active {
+    border-bottom: 2px solid #413c3c;
+    border-top: 2px solid #000;
+  }
+  
+  .btn-num {
+    background-color: black;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 6px;
+    border-bottom: 2px solid #3b3737;
+    border-top: 2px solid black;
+  }
+  
+  .btn-num:active {
+    border-bottom: 2px solid #413c3c;
+    border-top: 2px solid #000;
+  }
+  .btn-red {
+    background: rgb(124, 198, 222);
+    padding: 4px;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 4px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid rgb(124, 186, 207);
+    font-weight: 600;
+  }
+  
+  .btn-red:active {
+    border-bottom: 2px solid #000;
+    border-top: 2px solid red;
+  }
+  
+  .btn-opera {
+    background: black;
+    color: #fff;
+    padding: 4px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #111;
+  }
+  
+  .btn-opera:active {
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #111;
+  }
